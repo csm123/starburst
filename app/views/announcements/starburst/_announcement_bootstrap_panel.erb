@@ -1,0 +1,17 @@
+<% if current_announcement %>
+	<%= form_tag starburst.mark_as_read_path(current_announcement.id), :remote => true do %>
+		<div class="panel panel-info" id="starburst-announcement" role="alert">
+			<div class="panel-heading text-center">
+				<span class="glyphicon glyphicon-bullhorn pull-left"></span>
+				<button name="commit" type="submit" class="close pull-right" id="starburst-close">
+					<span aria-hidden="true">&times;</span>
+					<span class="sr-only"><%= t(:close) %></span>
+				</button>
+				<h3 class="panel-title"><%= t(:announcement) %></h3>
+			</div>
+			<div class="panel-body">
+				<p><%= current_announcement.body.html_safe %></p>
+			</div>
+		</div>
+	<% end %>
+<% end %>
