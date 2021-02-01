@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'appraisal', '~> 2'
   spec.add_development_dependency 'byebug', '>= 10.0.2', '< 12'
   spec.add_development_dependency 'capybara', '~> 3.1'
-  spec.add_development_dependency 'database_cleaner-active_record', '~> 1.8'
+  spec.add_development_dependency 'database_cleaner-active_record', '~> 2.0'
   spec.add_development_dependency 'factory_bot_rails', '>= 4.11.1', '< 6'
   spec.add_development_dependency 'rspec-rails', '~> 4.0'
   spec.add_development_dependency 'selenium-webdriver', '>= 3.141.0', '< 4'
