@@ -37,7 +37,7 @@ If you use a different authentication system that does not set a `current_user` 
 
 ### Ruby and Rails
 
-Starburst [works](https://secure.travis-ci.org/starburstgem/starburst) on Rails 4.2, 5.0, 5.1, 5.2, and 6.0. It should work with the same Ruby runtime versions supported by each framework version.
+Starburst [works](https://secure.travis-ci.org/starburstgem/starburst) on Rails 4.2, 5.0, 5.1, 5.2, 6.0, and 6.1. It should work with the same Ruby runtime versions supported by each framework version.
 
 ## Installation
 

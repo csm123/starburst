@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
     '--quiet'
   ]
 
-  spec.add_runtime_dependency 'rails', '>= 4.2.0', '< 6.1'
+  spec.add_runtime_dependency 'rails', '>= 4.2.0', '< 6.2'
 
   spec.add_development_dependency 'appraisal', '~> 2'
   spec.add_development_dependency 'byebug', '>= 10.0.2', '< 12'
